@@ -1,5 +1,28 @@
 # Coding-Challenge
 ##### Ejercicios nivelatorios
+# Tabla de contenido
+
+- [1. Loop de pares](#1-loop-de-pares)
+- [2. Loop de impares con palabra](#2-loop-de-impares-con-palabra)
+- [3. Sumatoria](#3-sumatoria)
+- [4. Callback](#4-callback)
+- [5. Nuevo Arreglo](#5-nuevo-arreglo)
+- [6. Similar String.split()](#6-similar-stringsplit)
+- [7. Carácter del medio](#7-carácter-del-medio)
+- [8. Mover ceros a lo último](#8-mover-ceros-a-lo-último)
+- [9. Manejando dos arreglos](#9-manejando-dos-arreglos)
+- [10. Mezclando arreglos](#10-mezclando-arreglos)
+- [11. Arreglos](#11-arreglos)
+- [12. Mínima Suma](#12-mínima-suma)
+- [13. Arreglo de objetos](#13-arreglo-de-objetos)
+- [14. Arreglo de objetos](#14-arreglo-de-objetos)
+- [15. Única propiedad](#15-única-propiedad)
+- [16. Guerra de palabras](#16-guerra-de-palabras)
+- [17. Prefijos Telefónicos](#17-prefijos-telefónicos)
+- [18. {value: key} value: key](#18-value-key-value-key)
+- [19. Palindromo](#19-palindromo)
+- [20. Rotación de arreglo a la derecha](#20-rotación-de-arreglo-a-la-derecha)
+- [21. Consecutivos similares](#21-consecutivos-similares)
 
 ### 1. Loop de pares
 Debés crear una función llamada loopDePares que reciba como parámetro un número y haga un loop de 0 a 100 mostrando en la consola cada número del loop. 
@@ -34,6 +57,7 @@ Ejemplo:
 -	nuevoArreglo(10) debe retornar [1,2,3,4,5,6,7,8,9,10]
 
 ### 6. Similar String.split()
+
 Debés crear una función llamada `split` que reciba un `string` y simule el comportamiento de la función original Si no sabés cómo funciona, Google puede ayudarte..
 
 Importante: No podés usar el String.split()
@@ -43,6 +67,7 @@ Ejemplo:
 -	split(“chau”) debe retornar [“c”,”h”,”a”,”u”]
 
 ### 7. Carácter del medio
+
 Debés crear una función llamada `middleCharacter` que reciba un `string` por parámetro y devuelva sus caracteres del medio.
 
 Ejemplo: 
@@ -51,6 +76,7 @@ Ejemplo:
 -	middleCharacter(“cosas”) debe retornar “s”
 
 ### 8. Mover ceros a lo último
+
 Debés crear una función llamada `moveZeros` que reciba un arreglo como parámetro y devuelva otro con los números `0` ordenados al final.
 
 Ejemplo: 
@@ -59,6 +85,7 @@ Ejemplo:
 
 
 ### 9. Manejando dos arreglos
+
 Debés crear una función llamada `arrayHandler` que reciba dos arreglos de igual largo como parámetros y muestre en la consola “Soy {elemento de array 1} y yo soy {elemento de array 2}”.
 
 Ejemplo:
@@ -69,6 +96,7 @@ Soy 3 y yo soy l
 Soy 4 y yo soy a
 
 ### 10. Mezclando arreglos
+
 Debés crear una función llamada `mezclarArreglos` que reciba dos arreglos como parámetros y devuelva uno nuevo con los elementos de ambos, de 1 en 1.
 
 Ejemplo: 
@@ -77,6 +105,7 @@ Ejemplo:
 -	mezclarArreglos([“h”,”p”], [1,2,3,4]) debe retornar [“h”, 1, “p”, 2, 3 , 4]
 
 ### 11. Arreglos
+
 Investiga los siguientes métodos de los arreglos y replica su funcionamiento de manera lógica al igual que lo hiciste en el ejercicio número 5: 
 -	1. “join([1,2,3,4,5], “ ”)” debe retornar “1 2 3 4 5”
 -	2. “pop([1,2,3,4,5])” debe retornar 5
@@ -84,6 +113,7 @@ Investiga los siguientes métodos de los arreglos y replica su funcionamiento de
 -	4. “map([1,2,3,4,5], (e)=>{return e * 10})” debe retornar [10, 20, 30, 40, 50]
 
 ### 12. Mínima Suma
+
 Debés crear una función llamada `minSum` que reciba un arreglo de números desordenados  y devuelva la suma entre los dos números más chicos.
 
 Ejemplo: 
@@ -91,6 +121,7 @@ Ejemplo:
 -	minSum([1, 10, 43, 900, 20, 8]) debe retornar 9
 
 ### 13. Arreglo de objetos
+
 Debés crear una función llamada `arregloDeObjetos` que reciba un número como parámetro y devuelva un arreglo de objetos que tengan una propiedad llamada `valor` que contenga el valor del número y sus anteriores.
 
 Ejemplo:
@@ -98,6 +129,7 @@ Ejemplo:
 -	arregloDeObjetos(3) debe retornar [{valor: 1}, {valor: 2}, {valor: 3}]
 
 ### 14. Arreglo de objetos 
+
 Debés crear una función llamada `arregloDeObjetos` que reciba un número y una palabra como parámetro y devuelva un arreglo de objetos que tenga: una propiedad llamada como la palabra pasada por parámetro y el valor del número y sus anteriores.
 
 Ejemplo:
@@ -105,6 +137,7 @@ Ejemplo:
 -	arregloDeObjetos(3, “chau”) debe retornar [{chau: 1}, {chau: 2}, {chau: 3}]
 
 ### 15. Única propiedad
+
 Debés crear una función llamada `oneProperty` que reciba un arreglo de objetos como parámetro y un string. Deberá retornar un nuevo arreglo de objetos, teniendo como parámetro la propiedad que fue pasada como string. 
 
 Ejemplo: 
@@ -113,6 +146,7 @@ Ejemplo:
 -	oneProperty(arreglo, “name”) debe retornar [ { name: “lucas”}, { name: “santi” } ]
 
 ### 16. Guerra de palabras
+
  Utils: 
  var abc = {a:1,b:2,c:3,d:4,e:5,f:6,g:7,h:8,i:9,j:10,k:11,l:12,m:13,n:14,o:15,p:16,q:17,r:18,s:19,t:20,u:21,v:22,w:23,x:24,y:25,z:26}
 
@@ -125,6 +159,7 @@ Ejemplo:
 
 
 ### 17. Prefijos Telefónicos
+
   Utils:
   var prefijos = [54, 55, 56, 57, 58]
   var paises = ["argentina", "brasil", "chile", "colombia", "venezuela"]
@@ -177,6 +212,7 @@ edad: 22,
 
 
 ### 19. Palindromo
+
 Deben crear una función llamada “palíndromo” que indique si una palabra es palíndroma o no, debe retornar true en el caso que sea, y false en el caso que no.
 
 Definición de palíndromo aquí.
@@ -188,6 +224,7 @@ Ejemplo:
 -	palindromo(“Enrique”) debe retornar false
 
 ### 20. Rotación de arreglo a la derecha
+
 Debes crear una función llamada “rotar” que reciba un arreglo y un número, y debera retornar un nuevo arreglo con los elementos rotados la cantidad de veces como sea el número a la derecha.
 
 Ejemplo: 
