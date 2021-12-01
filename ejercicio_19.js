@@ -11,7 +11,7 @@ const reversarPalabra = str => str.split("").reverse().join("")
 // console.log(palindromo("hola"))
 
 
-// OPCION 2 - otra forma de hacerlo ya que mis queridos profes me recomendaron no aprovecharse tanto de los metodos
+// OPCION 2 - otra forma de hacerlo para no aprovecharse tanto de los metodos
 
 const palindromo2 = (palabra) => {
   let elements = palabra.length;
