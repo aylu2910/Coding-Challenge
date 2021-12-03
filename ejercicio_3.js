@@ -1,11 +1,5 @@
 //-	3. Sumatoria
-const sumattion = (numero) => {
-    if (numero === 1){
-        return 1
-    }else{
-        return numero + sumattion(numero-1)
-    }
-}
+const sumattion = (numero) => numero === 1 ? 1 : numero + sumattion(numero-1)
 
 console.log(sumattion(3))
 console.log(sumattion(4))
