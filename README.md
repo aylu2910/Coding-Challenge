@@ -56,44 +56,50 @@ Ejemplo:
 -	nuevoArreglo(5) debe retornar [1,2,3,4,5]
 -	nuevoArreglo(10) debe retornar [1,2,3,4,5,6,7,8,9,10]
 
-### 6. Similar String.split()
+### 6. Similar String.split() 
 
 Debés crear una función llamada `split` que reciba un `string` y simule el comportamiento de la función original Si no sabés cómo funciona, Google puede ayudarte..
 
 Importante: No podés usar el String.split()
 
-Ejemplo: 
+&rarr; Ejemplo: 
 -	split(“hola”) debe retornar [“h”,”o”,”l”,”a”]
 -	split(“chau”) debe retornar [“c”,”h”,”a”,”u”]
 
+&rarr; [Resolución](https://github.com/aylu2910/Coding-Challenge/blob/main/ejercicio_6.js)
 ### 7. Carácter del medio
 
 Debés crear una función llamada `middleCharacter` que reciba un `string` por parámetro y devuelva sus caracteres del medio.
 
-Ejemplo: 
+&rarr; Ejemplo: 
 -	middleCharacter(“plataforma5”) debe retornar “f”
 -	middleCharacter(“hola”) debe retornar “ol”
 -	middleCharacter(“cosas”) debe retornar “s”
+
+&rarr; [Resolución](https://github.com/aylu2910/Coding-Challenge/blob/main/ejercicio_7.js)
 
 ### 8. Mover ceros a lo último
 
 Debés crear una función llamada `moveZeros` que reciba un arreglo como parámetro y devuelva otro con los números `0` ordenados al final.
 
-Ejemplo: 
+&rarr; Ejemplo: 
 -	moveZeros([false,1,0,1,2,0,1,3,"a"]) debe retornar [false,1,1,2,1,3,"a",0,0]
 -	moveZeros([1,2,0,1,0,1,0,3,0,1]) debe retornar [1,2,1,1,3,1,0,0,0,0]
 
+&rarr; [Resolución](https://github.com/aylu2910/Coding-Challenge/blob/main/ejercicio_8.js)
 
 ### 9. Manejando dos arreglos
 
 Debés crear una función llamada `arrayHandler` que reciba dos arreglos de igual largo como parámetros y muestre en la consola “Soy {elemento de array 1} y yo soy {elemento de array 2}”.
 
-Ejemplo:
+&rarr; Ejemplo:
 -	arrayHandler([1,2,3,4], [“h”,”o”,”l”,”a”]) debe mostrar: 
 		Soy 1 y yo soy h
-Soy 2 y yo soy o
-Soy 3 y yo soy l
-Soy 4 y yo soy a
+		Soy 2 y yo soy o
+		Soy 3 y yo soy l
+		Soy 4 y yo soy a
+
+&rarr; [Resolución](https://github.com/aylu2910/Coding-Challenge/blob/main/ejercicio_9.js)
 
 ### 10. Mezclando arreglos
 
