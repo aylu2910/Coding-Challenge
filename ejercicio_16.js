@@ -28,18 +28,18 @@ var abc = {
 };
 
 const warWords = (palabra1, palabra2) => {
-    let p1 = contarPuntos(palabra1)
-    let p2 = contarPuntos(palabra2)
-    return p1>p2 ?  palabra1:  palabra2
+    let puntosPalabra1 = contarPuntos(palabra1)
+    let puntosPalabra2 = contarPuntos(palabra2)
+    return p1 > p2 ?  puntosPalabra1 :  puntosPalabra2
 }
 
 const contarPuntos = (palabra) =>{
     palabra = palabra.toLowerCase()
-    let palabra_puntos = 0;
+    let palabraPuntos = 0;
     for (caracter of palabra) {
-        palabra_puntos += abc[caracter];
+        palabraPuntos += abc[caracter];
       }
-    return palabra_puntos;
+    return palabraPuntos;
 
 }
 console.log(contarPuntos("hola"))
