@@ -28,12 +28,12 @@ var abc = {
 };
 
 const warWords = (palabra1, palabra2) => {
-    let puntosPalabra1 = contarPuntos(palabra1)
-    let puntosPalabra2 = contarPuntos(palabra2)
+    let puntosPalabra1 = calcularPuntos(palabra1)
+    let puntosPalabra2 = calcularPuntos(palabra2)
     return p1 > p2 ?  puntosPalabra1 :  puntosPalabra2
 }
 
-const contarPuntos = (palabra) =>{
+const calcularPuntos = (palabra) => {
     palabra = palabra.toLowerCase()
     let palabraPuntos = 0;
     for (caracter of palabra) {
