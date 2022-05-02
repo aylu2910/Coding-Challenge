@@ -42,7 +42,7 @@ const calcularPuntos = (palabra) => {
     return palabraPuntos;
 
 }
-console.log(contarPuntos("hola"))
+console.log(calcularPuntos("hola"))
 console.log(warWords("Hola","chau"))
 
 
